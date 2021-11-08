@@ -12,4 +12,4 @@ Erik Meyer [reset.css](https://meyerweb.com/eric/tools/css/reset/)
 
 - box-sizing niet vergeten!
 - extra aandacht volgorde inladen css-files
-- altijd eens
+- altijd eens iccontjes (:before => content:"\e900" + font-family correct instellen)
