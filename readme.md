@@ -2,12 +2,14 @@
 
 ## Icons
 
-Website om ico-font te genereren => {https://icomoon.io}(icomoon.io)
+Website om ico-font te genereren => [icomoon.io](https://icomoon.io)
 
 ## Reset
 
-Erik Meyer {https://meyerweb.com/eric/tools/css/reset/}(reset.css)
+Erik Meyer [reset.css](https://meyerweb.com/eric/tools/css/reset/)
 
 ## Tips
 
-- box-sizing
+- box-sizing niet vergeten!
+- extra aandacht volgorde inladen css-files
+- altijd eens
