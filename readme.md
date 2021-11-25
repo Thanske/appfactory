@@ -1,19 +1,19 @@
-# Opdracht html/css Syntra 2021-2022
+# opdracht html/css Syntra 2021-2022
 
-## Icons
+## icons
 
-Website om ico-font te genereren => [icomoon.io](https://icomoon.io)
+website om ico-font te genereren => [icomoon.io](https://icomoon.io)
 
-## Reset
+## reset
 
 Erik Meyer [reset.css](https://meyerweb.com/eric/tools/css/reset/)
 
-## Google-fonts
+# google fonts
 
-[Google-fonts](https://fonts.google.com/)
+[lato font](https://fonts.google.com/?query=lato)
 
-## Tips
+## tips
 
-- box-sizing niet vergeten!
+- box-sizing niet vergeten
 - extra aandacht volgorde inladen css-files
-- altijd eens iccontjes (:before => content:"\e900" + font-family correct instellen)
+- altijd eens icoontjes testen (:before => content:"\e900" + font-family correct instellen)
