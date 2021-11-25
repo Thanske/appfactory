@@ -152,18 +152,6 @@ footer {
   position: relative;
   padding-left: 80px;
 }
-.services section article:after {
-  content: "\e903";
-  font-family: icons;
-  font-size: 38px;
-  color: #767e9e;
-  position: absolute;
-  left: 0;
-  top: 0;
-  border: 2px #767e9e solid;
-  border-radius: 50%;
-  padding: 12px;
-}
 .services section h3 {
   font-family: "Lato";
   color: #666d89;
@@ -178,7 +166,20 @@ footer {
   font-weight: 300;
   line-height: 21px;
 }
-
+.services section article:after {
+  font-family: icons;
+  font-size: 38px;
+  color: #767e9e;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 2px #767e9e solid;
+  border-radius: 50%;
+  padding: 12px;
+}
+.services section article:nth-child(1):after {
+  content: "\e903";
+}
 .services section article:nth-child(2):after {
   content: "\e901";
 }
@@ -303,14 +304,25 @@ footer {
 .members ul a {
   text-decoration: none;
 }
-.members ul a:before {
-  content: "\e900";
+.members ul li:before {
   font-family: icons;
   font-size: 15px;
   border: 1px solid #666d89;
   color: #666d89;
   border-radius: 50%;
   padding: 7px;
+}
+.members ul li:nth-child(1):before{
+  content: "\ea90";
+}
+.members ul li:nth-child(2):before{
+  content: "\ea8b";
+}
+.members ul li:nth-child(3):before{
+  content: "\ea96";
+}
+.members ul li:nth-child(4):before{
+  content: "\eaca";
 }
 .contact h2,
 .contact p {
@@ -344,9 +356,17 @@ footer {
 }
 .contact .formulier aside a:before {
   font-family: icons;
-  content: "\e900";
   color: white;
   font-size: 12px;
+}
+.contact .formulier aside li:nth-child(1) a:before{
+  content: "\e948";
+}
+.contact .formulier aside li:nth-child(2) a:before{
+  content: "\e942";
+}
+.contact .formulier aside li:nth-child(3) a:before{
+  content: "\e945";
 }
 .contact .formulier aside a:hover {
   text-decoration: none;
@@ -378,16 +398,33 @@ footer .container {
   align-items: center;
   padding: 20px 0;
 }
-footer p {
+footer .container p {
   padding-bottom: 0;
 }
 footer .container ul {
   display: flex;
   gap: 10px;
 }
+footer .container ul li:nth-child(1) a:before{
+content: "\ea90";
+}
+footer .container ul li:nth-child(2) a:before{
+  content: "\ea8b";
+}
+footer .container ul li:nth-child(3) a:before{
+  content: "\ea96";
+}
+footer .container ul li:nth-child(4) a:before{
+  content: "\eaca";
+}
 footer .container ul a {
-  font-family: lato;
-  color: white;
+  font-family: icons;
+  font-size: 15px;
+  border: 1px solid #666d89;
+  color: #666d89;
+  border-radius: 50%;
+  padding: 7px;
+  text-decoration: none;
 }
 .mobile {
   display: none;
